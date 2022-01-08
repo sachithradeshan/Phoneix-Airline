@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Pheonix Airline</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<!-- Add icon library -->
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="bookingCSS.css">
+<script type="text/javascript" src="nav.js"></script>
+        <link rel="stylesheet" type="text/css" href="nav.css">
+<style>
+            body{
+                background-image: url('flights2.jpg');
+                opacity: 0.9;
+                background-size: cover;
+                margin: 0px;
+                padding: 0p;
+                font-size: 20px;
+            }
+            </style>
+</head>
+<body>
+     <div class="topnav" id="myTopnav">
+		<a href="HomePage.html">Home</a>
+                <a href="UserPage.jsp">Your Profile</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+	</div>
+   <center> 
+	 <form action="filterFlights" method="POST">
+             <div class="container">
+               <table>
+                   <tr>
+                       <td colspan="4"><p>Looking to save on your flights?</p></td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <div class="input-icons"><i class="fas fa-plane-departure icon" style="font-size:24px;"></i>
+                               <input  class="input-field" type="text" name="departingForm" placeholder="Departing from?"> </div></td>
+                          
+                          <td><i class="fa fa-exchange" style="font-size: 30px;"></i></td>
+                       <td>
+                          <div class="input-icons"><i class="fas fa-plane-arrival icon" style="font-size:24px;"></i>
+                               <input  class="input-field" type="text" name="destination" placeholder="Going to?"></div></td>
+                          
+                       <td>
+                        <div class="input-icons"><i class="fa fa-calendar icon" style="font-size:24px;"></i>
+                               <input class="input-field" type="date" name="departingDate" placeholder="Departing"> </div></td>
+                       
+                   </tr>
+                   <tr>
+                       <td><div class="input-icons"><i class="fa fa-user icon" style="font-size:24px;"></i><select name="passenger" class="input-field">
+                               <option>Adult</option>
+                               <option>Student</option>
+                               <option>Youth</option>
+                           </select></div>
+                       </td>
+                       <td></td>
+                       <td><div class="input-icons"><i class="material-icons icon" style="font-size:29px;">&#xe637;</i><select name="cabinClass" class="input-field">
+                               <option>Cabin Class</option>
+                               <option>Economy</option>
+                               <option>Business</option>
+                               <option>First</option>
+                               </select></div></td>
+                       <td><input type="submit" value="Find Your Flight" ></td>
+                   </tr>
+                   <tr align="right">
+                       <td colspan="4">Book a flight with free cancellation for flexibility</td>
+                   </tr>
+                   </table>
+                 </div>
+           </form>
+    </center>
+    
+</body>
+</html>

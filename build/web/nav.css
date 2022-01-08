@@ -1,0 +1,33 @@
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #C2DFFF;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  padding:40px 15px 1px 15px;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+
+  color: black;
+}
+
+.topnav a.active {
+  
+  color: white;
+}
+.topnav a.visited {
+  
+  color: blueviolet;
+}
+.topnav .icon {
+  display: none;
+}
+

@@ -1,0 +1,51 @@
+	 .input-icons i {
+            position: absolute;
+            color:blue;
+        }	
+         .icon {
+           color: dodgerblue;
+           padding-top:14px ; 
+           min-width: 50px;
+           text-align: center;
+        }
+         .input-field {
+            width: 100%;
+            padding:15px 50px;
+            border:1px solid gray;
+           border-radius: 5px;
+            font-size: 16px;
+        }
+
+
+
+ input[type=submit]
+        {
+        	border:1px solid dodgerblue;
+        	border-radius: 5px;
+        	background-color:dodgerblue;
+        	color:white;
+        	padding: 12px 90px;
+        	font-size: 16px;
+        	 transition-duration: 0.4s;
+        }
+		input[type=submit]:hover
+		{
+        	border:1px solid dodgerblue;
+        	background-color: white;
+        	color: dodgerblue;
+        	 box-shadow: 1px 1px 4px dodgerblue;
+		}
+	.container{
+           margin-top:100px;    
+        }
+        table, td { 
+          padding:10px;
+          background-color:#ccccff;
+          border-radius: 5px;
+        }
+
+        p
+       {
+         font-family: "Ariala", Times, serif;
+         font-size: 30px;
+        }

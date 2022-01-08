@@ -1,0 +1,61 @@
+body{
+
+          font-family: Verdana, sans-serif;
+         font-size: 16px;
+        
+} 
+        .input-icons i {
+            position: absolute;
+            color:blue;
+        }	
+         .icon {
+           color: dodgerblue;
+           padding-top:14px ; 
+           min-width: 50px;
+          text-align: center;
+        }
+         .input-field {
+            width: 160px;
+            padding:10px 50px;
+            border:1px solid gray;
+           border-radius: 5px;
+            font-size: 14px;
+        }
+        
+
+
+ input[type=submit]
+        {
+        	border:1px solid dodgerblue;
+        	border-radius: 5px;
+        	background-color:dodgerblue;
+        	color:white;
+        	padding: 12px 10px;
+        	font-size: 16px;
+        	 transition-duration: 0.4s;
+        }
+		input[type=submit]:hover
+		{
+        	border:1px solid dodgerblue;
+        	background-color: white;
+        	color: dodgerblue;
+        	 box-shadow: 1px 1px 4px dodgerblue;
+		}
+	.container{
+           margin-top:100px;   
+           margin-left:5px;   
+        }
+        table,td { 
+          padding:4px;
+          background-color:#ccccff;
+          border-radius: 5px;
+        }
+         #flights td, #flights th {
+         border: 1px solid #ddd;
+         padding: 8px;
+       }
+        
+        
+
+
+

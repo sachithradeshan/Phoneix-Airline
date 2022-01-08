@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>User Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link href="Login.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="nav.js"></script>
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="page.css">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+		<a href="HomePage.html">Home</a>
+                <a href="index.html">Flight</a>
+                <a href="UserLogin.jsp">Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+	</div>
+    <center>
+        <p class="topic">User Registration</p>
+        <form action="UserRegServlet" method="POST">
+            <table border="0" cellspacing="9">
+                    <tr>
+                        <td>Name:</td>
+                        <td><input class="input-field" type="text" name="name" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input class="input-field" type="email" name="email" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone:</td>
+                        <td><input class="input-field" type="text" name="tele" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>NIC/Passport number:</td>
+                        <td><input class="input-field" type="text" name="ukey" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input class="input-field" type="password" name="password" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm Password:</td>
+                        <td><input class="input-field" type="password" name="copassword" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><input class="input-field" type="text" name="address" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td><input class="input-field" type="submit" value="SUBMIT" /></td>
+                        <td><input class="input-field" type="reset" value="CANCEL" /></td>
+                    </tr>
+            </table>
+
+        </form>
+    </center>
+    </body>
+</html>

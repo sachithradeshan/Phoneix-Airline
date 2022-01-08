@@ -1,0 +1,80 @@
+body{
+
+          font-family: Verdana, sans-serif;
+         font-size: 16px;
+      
+        
+} 
+.input-field {
+            width: 160px;
+            padding:6px 50px;
+            border:1px solid gray;
+           border-radius: 5px;
+            font-size: 14px;
+        }
+.select-field{
+        width: 260px;
+        padding:6px 50px;
+        border:1px solid gray;
+        border-radius: 5px;
+        font-size: 14px;    
+}
+.container{
+           margin-top:1px;   
+           margin-left:20px;   
+        }
+    
+input[type=submit]
+        {
+        	border:1px solid dodgerblue;
+        	border-radius: 5px;
+        	background-color:dodgerblue;
+        	color:white;
+        	padding: 6px 70px;
+        	font-size: 16px;
+        	 transition-duration: 0.4s;
+        }
+		input[type=submit]:hover
+		{
+        	border:1px solid dodgerblue;
+        	background-color: white;
+        	color: dodgerblue;
+        	 box-shadow: 1px 1px 4px dodgerblue;
+		}
+                input[type=reset]
+        {
+        	border:1px solid red;
+        	border-radius: 5px;
+        	background-color:red;
+        	color:white;
+        	padding: 6px 70px;
+        	font-size: 16px;
+        	 transition-duration: 0.4s;
+        }    
+                input[type=reset]:hover
+		{
+        	border:1px solid red;
+        	background-color: white;
+        	color: red;
+        	 box-shadow: 1px 1px 4px red;
+		}
+		
+        .login
+        {
+        	border:1px solid gray;
+        	border-radius: 5px;
+        	background-color:gray;
+        	color:white;
+        	padding: 6px 40px;
+        	font-size: 16px;
+        
+        }
+        table,td { 
+          padding:4px;
+          background-color:#ccccff;
+          border-radius: 5px;
+        }
+        #flight td, #flight th {
+         border: 1px solid #ddd;
+         padding: 8px;
+       }

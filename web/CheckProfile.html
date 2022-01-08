@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Check Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Login.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="nav.js"></script>
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <link rel="stylesheet" type="text/css" href="page.css">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+		<a href="HomePage.html">Home</a>
+                <a href="UserLogin.jsp">Login</a>
+                <a href="AdminPage.html">Your Profile</a>
+                <a href="UserRegistration.html">Registration</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+	</div>
+    <center>
+        <p class="topic">Choose the profile you want to check....</p>
+        <form action="CheckProfileServlet" method="POST">
+            <table border="0" cellspacing="20">
+                    <tr>
+                        <td>Profile Type:</td>
+                        <td><select name="ptype" class="input-field" style="width: 160px;">
+                                <option value="user">User</option>
+                                <option value="staff">Staff</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><input class="input-field" type="submit" value="Search" /></td>
+                        <td><input class="input-field" type="reset" value="Cancel" /></td>
+                    </tr>
+            </table>
+
+        </form>
+    </center>
+    </body>
+</html>
