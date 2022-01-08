@@ -1,5 +1,6 @@
 # Phoneix-Airline
 This is a web application design for Pheonix-Airline management system. This is developed to automate all the processor which was done manually. This project was done as a group project and I was assigned to develop the Home page, User Page.
+
 Following is the Database model of our website
 ![Database mODEL](https://user-images.githubusercontent.com/75446770/148655599-775ac4c5-d6bd-42cd-898b-3097a6d09c3d.jpeg)
 Following is the Flow chart of our website
